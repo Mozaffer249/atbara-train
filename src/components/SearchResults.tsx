@@ -36,7 +36,7 @@ const SearchResults: React.FC = () => {
       const mockTrains: Train[] = [
         {
           id: '1',
-          name: 'Al Haramain Express',
+          name: 'Nile Valley Express',
           departure: '08:00',
           arrival: '12:30',
           duration: '4h 30m',
@@ -47,7 +47,7 @@ const SearchResults: React.FC = () => {
         },
         {
           id: '2',
-          name: 'Saudi Express',
+          name: 'Sudan Express',
           departure: '10:15',
           arrival: '14:45',
           duration: '4h 30m',
@@ -58,7 +58,7 @@ const SearchResults: React.FC = () => {
         },
         {
           id: '3',
-          name: 'Royal Train',
+          name: 'Royal Sudan Train',
           departure: '14:00',
           arrival: '18:30',
           duration: '4h 30m',

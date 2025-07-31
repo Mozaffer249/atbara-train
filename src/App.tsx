@@ -8,6 +8,7 @@ import AdminPanel from './components/AdminPanel';
 import Header from './components/Header';
 import { LanguageProvider } from './contexts/LanguageContext';
 import { AuthProvider } from './contexts/AuthContext';
+import Login from './components/Login';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
             <Header />
             <Routes>
               <Route path="/" element={<Homepage />} />
+              <Route path="/login" element={<Login />} />
               <Route path="/search" element={<SearchResults />} />
               <Route path="/book" element={<BookingPage />} />
               <Route path="/dashboard" element={<Dashboard />} />
